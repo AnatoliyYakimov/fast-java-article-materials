@@ -1,0 +1,21 @@
+{
+  "resources" : {
+    "includes" : [ {
+      "pattern" : "\\Qlogback.xml\\E"
+    }, {
+      "pattern" : "\\QMETA-INF/maven/me.anatoliy-helidon/example-nima/pom.properties\\E"
+    }, {
+      "pattern" : "\\Qlogging.properties.disabled\\E"
+    }, {
+      "pattern" : "\\QMETA-INF/native-image/native-image.properties\\E"
+    }, {
+      "pattern" : "\\Qapplication.yaml\\E"
+    }, {
+      "pattern" : "\\QMETA-INF/services/me.anatoliy.example.nima.PokemonMapperProvider\\E"
+    }, {
+      "pattern" : "\\QMETA-INF/maven/me.anatoliy-helidon/example-nima/pom.xml\\E"
+    } ],
+    "excludes" : [ ]
+  },
+  "bundles" : [ ]
+}

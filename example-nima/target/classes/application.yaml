@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  host: 0.0.0.0
+
+pool_size: 200
+
+# docker run --rm --name postgres -p 35432:5432 postgres
+db:
+  jdbc-url: jdbc:postgresql://localhost:35432/postgres
+  username: postgres
+  password: example
+  maximum-pool-size: ${pool_size}
+  minimum-idle: ${pool_size}
